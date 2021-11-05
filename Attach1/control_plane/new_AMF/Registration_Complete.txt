@@ -1,0 +1,7 @@
+--------------------------------
+Extended protocol discriminator	
+Security header type	
+Spare half octet	
+Registration complete message identity	
+SOR transparent container
+-----------------------------------------

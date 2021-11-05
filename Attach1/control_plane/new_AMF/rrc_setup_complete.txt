@@ -1,0 +1,3 @@
+Registration Request
+RAN UE NGAP ID
+RRC Establishment Cause

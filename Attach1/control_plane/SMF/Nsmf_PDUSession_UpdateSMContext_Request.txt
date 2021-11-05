@@ -1,0 +1,23 @@
+--------------------------------------------
+SUPI	
+Operation Type	
+PDU Session ID	
+N1 SM container received from the UE	
+N2 SM information received from the AN
+Serving GW Address(es) and Serving GW DL TEID(s)
+for data forwarding during HO from 5GS to EPS.	
+UE location information
+AN type	Optional
+UE Time Zone	
+H-SMF identifier/address	
+EBI(s) to be revoked, PDU Session(s) to be re-activated	
+Direct Forwarding Flag	
+ARP list	
+S-NSSAI	Optional
+Data Forwarding Tunnel (setup/release)	
+UE presence in LADN service area	
+Target ID	
+Target AMF ID	
+GUAMI	Optional
+Backup AMF(s) (if NF Type is AMF)	
+---------------------------------------------------------------

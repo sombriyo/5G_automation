@@ -1,0 +1,8 @@
+-----------------------------------------------------
+Extended protocol discriminator	
+Security header type	
+Spare half octet	
+Security mode complete message identity	
+IMEISV	
+NAS message container
+-----------------------------------------------------

@@ -1,0 +1,56 @@
+---------------------------------------------------------
+SUPI
+GPSI
+5G-GUTI
+PEI
+Internal Group ID-list
+UE Specific DRX Parameters
+UE MM Network Capability
+5GMM Capability
+Events Subscription
+-----------------------------------------------------------
+***AM policy Association information***
+AM Policy Information
+PCF ID(s)
+Subscribed RFSP Index
+RFSP Index in Use
+MICO Mode Indication	
+Voice Support Match Indicator
+Homogenous Support of IMS Voice over PS Sessions
+UE Radio Capability for Paging Information
+Information on Recommended Cells And RAN nodes For Paging
+UE Radio Capability Information
+SMSF Identifie
+SMSF Address
+SMS Subscription
+SEAF data
+Last used EPS PLMN ID
+--------------------------------------------------------------
+***Mobility Context***
+Access Type
+RM State
+Registration Area
+TAI of last Registration Update
+User Location Information
+Mobility Restrictions
+Expected UE Behavior Parameters for AMF
+Security Information for CP
+Security Information for UP
+Allowed NSSAI
+Mapping Of Allowed NSSAI	
+AMF UE NGAP ID
+RAN UE NGAP ID
+Network Slice Instance(s)	
+-----------------------------------------------------------
+***PDU Session level Context ***
+S-NSSAI(s)
+DNN
+Network Slice Instance id
+PDU Session ID
+SMF Information
+Access Type
+EBI-ARP list
+5GSM Core Network Capability	
+
+
+

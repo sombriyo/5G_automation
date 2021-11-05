@@ -1,0 +1,8 @@
+------------------------------------------------------
+Extended protocol discriminator	
+Security header type	
+Spare half octet	
+Authentication response message identity	
+Authentication response parameter	
+EAP message
+--------------------------------------------------------

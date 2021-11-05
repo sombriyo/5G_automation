@@ -1,0 +1,3 @@
+Access and Mobility Subscription data
+SMF Selection Subscription data
+UE Context In SMF Data Retrieval	

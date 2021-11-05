@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20211019 11:15:56.364" rpa="false" schemaversion="2">
+<suite id="s1" name="RACH Testsuite" source="S:\LTTS\Python stuff\robot_framework\Testsuite\RACH_Testsuite.robot">
+<test id="s1-t1" name="TC_attach_1.2_some">
+<kw name="Moving" library="attach_keyword">
+<kw name="Mov Ue2gnb" library="attach_function">
+<msg timestamp="20211019 11:15:56.713" level="INFO">Move UE -&gt; gNB</msg>
+<status status="PASS" starttime="20211019 11:15:56.684" endtime="20211019 11:15:56.715"/>
+</kw>
+<kw name="Mov Gnb2ue" library="attach_function">
+<msg timestamp="20211019 11:15:56.716" level="INFO">Move gNB -&gt; UE</msg>
+<status status="PASS" starttime="20211019 11:15:56.715" endtime="20211019 11:15:56.716"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.682" endtime="20211019 11:15:56.717"/>
+</kw>
+<kw name="Validating" library="attach_keyword">
+<kw name="Validate Gnb" library="attach_function">
+<msg timestamp="20211019 11:15:56.739" level="INFO">Validation for gnb is Successful</msg>
+<status status="PASS" starttime="20211019 11:15:56.733" endtime="20211019 11:15:56.739"/>
+</kw>
+<kw name="Validate Ue" library="attach_function">
+<msg timestamp="20211019 11:15:56.744" level="INFO">Validation for UE is Successful</msg>
+<status status="PASS" starttime="20211019 11:15:56.739" endtime="20211019 11:15:56.744"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.732" endtime="20211019 11:15:56.744"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.680" endtime="20211019 11:15:56.746"/>
+</test>
+<test id="s1-t2" name="TC_attach_1.2: Reg">
+<kw name="RACH_validation" library="attach_keyword">
+<kw name="Validate RACH" library="attach_function">
+<msg timestamp="20211019 11:15:56.750" level="INFO">RACH_validation is successful</msg>
+<status status="PASS" starttime="20211019 11:15:56.749" endtime="20211019 11:15:56.750"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.749" endtime="20211019 11:15:56.750"/>
+</kw>
+<kw name="Registration" library="attach_keyword">
+<kw name="Initial Reg" library="attach_function">
+<msg timestamp="20211019 11:15:56.807" level="INFO">RRC setup complete message from UE -&gt; gNb
+Registration Request from gNb -&gt; New AMF
+Namf_Communication_UEContextTransfer_request: New AMF -&gt; Old AMF
+Namf_Communication_UEContextTransfer_response: Old AMF -&gt; New AMF
+Identity Request: New AMF -&gt; UE
+Identity Response: UE -&gt; New AMF
+AMF selects AUSF for authentication
+Nausf_UEAuthenticate_authenticate Request: New AMF -&gt; AUSF
+Nudm_UEAuthenticate_Get Request: AUSF -&gt; UDM
+Nudm_UEAuthenticate_Get Response: UDM -&gt; AUSF
+Nausf_UEAuthenticate_authenticate Response: AUSF -&gt; New AMF
+Authentication Request: New AMF -&gt; UE
+Authentication Response: UE -&gt; New AMF
+NAS Security Mode Command: New MAF -&gt; UE
+NAS Security Mode Complete: UE -&gt; New AMF
+N5g-eir_EquipmentIdentityCheck_Request: New AMF -&gt; 5G_EIR
+N5g-eir_EquipmentIdentityCheck Response: 5G_EIR -&gt; New AMF
+Nudm_UEContextManagement_Registration_Request: New AMF -&gt; UDM
+Nudm_UEContextManagement_Registration_Response: UDM -&gt; New AMF
+Nudm_SubscriberDataManagement_Get_Request: New AMF -&gt; UDM
+Nudm_SubscriberDataManagement_Get_Response: UDM -&gt; New AMF
+Nudm_UEContextManagement_Deregistration_Notify: UDM -&gt; Old AMF
+Npcf_AMPolicyControl_Create_Request: New AMF -&gt; PCF
+Npcf_AMPolicyControl_Create_Response: PCF -&gt; New AMF
+Nsmf_PDUSession_UpdateSMContext_Request: New AMF -&gt; SMF
+Nsmf_PDUSession_UpdateSMContext_Response: SMF -&gt; New AMF
+Registration Accept: New AMF -&gt; UE
+Registration Complete: UE -&gt; New AMF</msg>
+<status status="PASS" starttime="20211019 11:15:56.752" endtime="20211019 11:15:56.807"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.752" endtime="20211019 11:15:56.807"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.748" endtime="20211019 11:15:56.810"/>
+</test>
+<test id="s1-t3" name="TC_attach_1.27: Paging">
+<kw name="Move" library="attach_keyword">
+<kw name="Paging Req" library="attach_function">
+<msg timestamp="20211019 11:15:56.818" level="INFO">Paging request has being sent to UE 
+UE wake up from idle state</msg>
+<status status="PASS" starttime="20211019 11:15:56.816" endtime="20211019 11:15:56.818"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.815" endtime="20211019 11:15:56.818"/>
+</kw>
+<kw name="Action" library="attach_keyword">
+<kw name="Ue Action" library="attach_function">
+<status status="PASS" starttime="20211019 11:15:56.820" endtime="20211019 11:15:57.392"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.818" endtime="20211019 11:15:57.393"/>
+</kw>
+<kw name="Validation" library="attach_keyword">
+<kw name="Gnb Validation" library="attach_function">
+<msg timestamp="20211019 11:15:57.408" level="INFO">UE validation is successful</msg>
+<status status="PASS" starttime="20211019 11:15:57.406" endtime="20211019 11:15:57.408"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:57.405" endtime="20211019 11:15:57.409"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:56.814" endtime="20211019 11:15:57.411"/>
+</test>
+<test id="s1-t4" name="TC_attach_1.20: RNAU_update">
+<kw name="Move_rna_update" library="attach_keyword">
+<kw name="Ran Ue2gnb" library="attach_function">
+<msg timestamp="20211019 11:15:57.487" level="INFO">rna_update has been sent to network</msg>
+<status status="PASS" starttime="20211019 11:15:57.486" endtime="20211019 11:15:57.487"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:57.485" endtime="20211019 11:15:57.488"/>
+</kw>
+<kw name="Network_validation" library="attach_keyword">
+<kw name="Validating Network" library="attach_function">
+<msg timestamp="20211019 11:15:57.500" level="INFO">Validation is successful</msg>
+<status status="PASS" starttime="20211019 11:15:57.498" endtime="20211019 11:15:57.500"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:57.497" endtime="20211019 11:15:57.501"/>
+</kw>
+<status status="PASS" starttime="20211019 11:15:57.482" endtime="20211019 11:15:57.501"/>
+</test>
+<status status="PASS" starttime="20211019 11:15:56.369" endtime="20211019 11:15:57.518"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="RACH Testsuite">RACH Testsuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

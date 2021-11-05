@@ -1,0 +1,34 @@
+----------------------------------------------------------
+Access and Mobility Subscription data
+SMF Selection Subscription data
+UE Context In SMF Data Retrieval
+--------------------------------------------
+***AccessAndMobilitySubscriptionData***
+supportedFeatures
+gpsis
+internalGroupIds
+subscribedUeAmbr
+nssai
+ratRestrictions
+forbiddenAreas
+serviceAreaRestrictions
+coreNetworkTypeRestrictions
+rfspIndex
+subsRegTimer
+ueUsageType
+mpsPriority
+activeTime
+dlPacketCount
+sorInfo	
+micoAllowed
+sharedDataIds
+-----------------------------------------------
+***SmfSelectionSubscriptionData***
+supportedFeatures
+subscribedSnssaiInfos
+---------------------------------------------------
+***UeContextInSmfData***
+pduSessions
+pgwInf
+-----------------------------------------------------
+

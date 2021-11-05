@@ -1,0 +1,12 @@
+---------------------------------------------------------------------
+Extended protocol discriminator	
+Security header type	
+Spare half octet	
+Authentication request message identity	
+ngKSI	
+Spare half octet	
+Authentication parameter RAND (5G authentication challenge)	
+Authentication parameter AUTN (5G authentication challenge)	
+ABBA
+EAP message
+--------------------------------------------------------------------

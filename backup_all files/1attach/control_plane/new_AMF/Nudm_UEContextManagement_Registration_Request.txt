@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------
+PUT
+PATCH
+GET
+------------------------------------------------------------------
+***Amf3GppAccessRegistration***
+amfInstanceId
+supportedFeatures	
+purgeFlag
+pei
+imsVoPS
+deregCallbackUri
+pcscfRestorationCallbackUri
+guami
+backupAmfInfo
+--------------------------------------------------------------------
+

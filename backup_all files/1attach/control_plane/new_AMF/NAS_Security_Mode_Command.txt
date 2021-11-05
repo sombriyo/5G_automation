@@ -1,0 +1,15 @@
+----------------------------------------------------
+Extended protocol discriminator	
+Security header type	
+Spare half octet	
+Security mode command message identity	
+Selected NAS security algorithms	
+ngKSI	
+Spare half octet	
+Replayed UE security capabilities	
+IMEISV request	
+HashAMF	
+Selected EPS NAS security algorithms	
+Additional 5G security information	
+EAP message
+------------------------------------------------------

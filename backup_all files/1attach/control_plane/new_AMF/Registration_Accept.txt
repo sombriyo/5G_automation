@@ -1,0 +1,28 @@
+---------------------------------------
+Extended protocol discriminator	
+Security header type	
+Spare half octet	
+Registration accept message identity	
+5GS registration result	
+5G-GUTI	
+Equivalent PLMNs	
+TAI list	
+Allowed NSSAI	
+Rejected NSSAI	
+Configured NSSAI	
+5GS network feature support	
+PDU session status	
+PDU session reactivation result	
+PDU session reactivation result error cause	
+LADN information	
+MICO indication	
+Network slicing indication	
+Service area list	
+T3512 value	
+Non-3GPP de-registration timer value	
+T3502 value	
+Emergency number list	
+Extended emergency number list	
+SOR transparent container	
+EAP message	
+-------------------------------------

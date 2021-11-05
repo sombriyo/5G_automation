@@ -1,0 +1,9 @@
+----------------------------------------------------
+Result Indication	
+PDU Session ID	
+Cause	
+released EBI list	
+allocated EBI information	
+N2 SM information	
+N1 SM container to be transferred to the AN/UE	
+--------------------------------------------------

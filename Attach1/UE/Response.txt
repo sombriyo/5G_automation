@@ -1,0 +1,4 @@
+*** TC_Attach_1.2 ***
+Random Access Response Report - (Msg2)
+Contention Resolution Message Report - (Msg4)
+*****************************************************************
